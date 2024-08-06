@@ -18,7 +18,24 @@
       <nav>
         <span><img src="asset/images/logo.svg" alt="" width="150vw" /></span>
         <div class="button">
-          <button class="english">English</button>
+          <button class="english">
+            <select
+              style="background-color: transparent; color: white; border: none"
+            >
+              <option
+                value="english"
+                style="background-color: transparent; color: black"
+              >
+                English
+              </option>
+              <option
+                value="hindi"
+                style="background-color: transparent; color: black"
+              >
+                हिन्‍दी
+              </option>
+            </select>
+          </button>
           <button class="signin">Sign In</button>
         </div>
       </nav>
@@ -33,11 +50,12 @@
           membership.</span
         >
 
-        <div class="input">
+        <div class="email">
           <input type="text" placeholder="Email address" />
-          <button>Get Started</button>
+          <button>Get Started &gt;</button>
         </div>
       </div>
+      <div class="seperation"></div>
     </div>
   </body>
 </html>
