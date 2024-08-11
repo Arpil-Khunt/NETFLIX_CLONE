@@ -20,7 +20,7 @@ nav{
     max-width: 80vw;
     margin: auto;
 }
-nav .button .english{
+ .button .english{
     font-family: "Martel Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -35,7 +35,7 @@ nav .button .english{
     color:white;
     
 }
-nav .button .english:hover{
+ .button .english:hover{
           border-color: white;
 }
 nav .button .signin{
@@ -160,6 +160,9 @@ nav img{
     border: none;
     padding: 4px 50px;
 }
+.email button:hover{
+    cursor: pointer;
+}
 
 @media (max-width: 600px){
     .hero h1{
@@ -227,6 +230,7 @@ nav img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .faq > span{
     font-family: "Poppins",sans-serif;
@@ -252,4 +256,36 @@ nav img{
 }
 .faq .one:hover{
     background-color: #4d4d4f;
+}
+
+.register{
+    margin-top: 35px;
+}
+.register> p{
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    color: white;
+}
+
+.footer{
+    color: white;
+    padding: 50px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+.footer .all{
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+}
+.footer a{
+    color: rgb(181, 174, 174);
+    line-height: 2.5;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
